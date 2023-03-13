@@ -9,14 +9,14 @@ body {
   height: 300px;
   width: 300px;
   border-radius: 150px;
-  border: solid 5px rgb(252, 255, 55);
+  border: solid 5px rgb(255, 94, 0);
   position: absolute;
 }
 #seconds-hand {
   position: absolute;
   height: 130px;
   width: 2px;
-  background-color: rgb(70, 255, 255);
+  background-color: rgb(255, 255, 255);
   left: 149px;
   bottom: 149px;
   opacity: 50%;
@@ -26,7 +26,7 @@ body {
   position: absolute;
   height: 100px;
   width: 2px;
-  background-color: rgb(253, 120, 227);
+  background-color: rgb(255, 94, 0);
   left: 149px;
   bottom: 149px;
   transform-origin: 0 100%;
@@ -35,7 +35,7 @@ body {
   position: absolute;
   height: 80px;
   width: 4px;
-  background-color: rgb(205, 112, 255);
+  background-color: rgb(255, 94, 0);
   left: 148px;
   bottom: 148px;
   transform-origin: 0 100%;
@@ -43,8 +43,8 @@ body {
 #center {
   height: 10px;
   width: 10px;
-  border-radius: 5px;
-  background-color: rgb(252, 255, 55);
+  border-radius: 20px;
+  background-color: rgb(255, 94, 0);
   position: absolute;
   left: 145px;
   bottom: 145px;

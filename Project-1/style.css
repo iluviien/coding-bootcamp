@@ -1,14 +1,31 @@
-div {
-  width: 300px;
-  height: 200px;
-  background-color: green;
+header {
+  width: 50%;
+  height: 50px;
+  background-color: rgb(211, 113, 173);
 }
 section {
   width: 300px;
-  height: 200px;
-  background-color: red;
+  height: 100px;
+  background-color: #e64d6e;
 }
 
 .about-me {
-  background-color: blue;
+  /* width: 300px;
+  height: 100px; */
+  background-color: rgb(177, 69, 21, 0.2);
+  margin: 10px;
+  border: solid rgb(103, 161, 236);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.avatar {
+  width: 100px;
+  border-radius: 50px;
+  position: absolute;
+}
+#name {
+  color: #e64d6e;
+  font-family: "Courier New", Courier, monospace;
 }
