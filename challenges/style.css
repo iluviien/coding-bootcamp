@@ -1,4 +1,4 @@
-body {
+/*body {
   background-color: lightcoral;
 }
 .circle {
@@ -6,4 +6,16 @@ body {
   width: 100px;
   height: 100px;
   border-radius: 50px;
+}
+*/
+body {
+  background-color: cadetblue;
+  display: flex;
+  justify-content: flex-end;
+}
+.child {
+  background-color: lightcoral;
+  width: 200px;
+  height: 100px;
+  border-radius: 20px;
 }
