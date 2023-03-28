@@ -1,0 +1,39 @@
+body {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+}
+
+.face {
+  position: absolute;
+  background-color: bisque;
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  margin-left: 50px;
+  margin-top: 80px;
+  left: 0;
+}
+
+.eye-container {
+  display: flex;
+  flex-direction: row;
+  padding-left: 15px;
+  margin-top: 20px;
+}
+
+.eye {
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.pupil {
+  background-color: black;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  margin: 10px 0px 10px 20px;
+}
