@@ -1,0 +1,14 @@
+body {
+  font-family: sans-serif;
+  background-color: lightseagreen;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.ball {
+  background-color: palevioletred;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  margin: 20px;
+}
